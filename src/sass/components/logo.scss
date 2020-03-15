@@ -1,0 +1,12 @@
+@media screen and (max-width: 767px) {
+  .logo {
+    width: 110px;
+  }
+}
+
+@media screen and (max-width: 1298px) {
+  .logo {
+    position: relative;
+    z-index: 3;
+  }
+}
