@@ -5,6 +5,11 @@
 <path fill="#fff" style="fill: var(--color1, #fff); stroke: var(--color1, #fff)" stroke="#fff" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="10" stroke-width="2.4078" d="M0 16.301h92.629M75.871 31.109l16.325-14.784M76.208 0.867l15.988 15.458"></path>
 <path fill="#fff" style="fill: var(--color1, #fff); stroke: var(--color1, #fff)" stroke="#fff" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="10" stroke-width="1.2039" d="M92.629 16.301c0 0.838-0.916 1.517-2.047 1.517s-2.047-0.679-2.047-1.517c0-0.838 0.916-1.517 2.047-1.517s2.047 0.679 2.047 1.517z"></path>
 </symbol>
+<symbol id="arrow-down" viewBox="0 0 32 32">
+<title>arrow-down</title>
+<path d="M31.797 14.118c-0.271-0.271-0.712-0.271-0.984 0l-14.812 14.812-14.814-14.812c-0.271-0.271-0.712-0.271-0.984 0s-0.271 0.712 0 0.984l15.305 15.305c0.136 0.135 0.314 0.203 0.493 0.203s0.356-0.068 0.491-0.203l15.305-15.305c0.271-0.271 0.271-0.712-0-0.984z"></path>
+<path d="M31.797 1.594c-0.271-0.271-0.712-0.271-0.984 0l-14.812 14.814-14.814-14.812c-0.271-0.271-0.712-0.271-0.984 0s-0.271 0.712 0 0.984l15.305 15.305c0.136 0.135 0.314 0.203 0.493 0.203s0.356-0.068 0.491-0.205l15.305-15.305c0.271-0.271 0.271-0.712 0-0.984z"></path>
+</symbol>
 <symbol id="arrow-small" viewBox="0 0 46 32">
 <title>arrow-small</title>
 <path fill="none" stroke="#fedc5c" style="stroke: var(--color2, #fedc5c)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="10" stroke-width="2.4078" d="M0 16.301h45.412M28.677 31.109l16.301-14.784M28.99 0.867l15.988 15.458"></path>
