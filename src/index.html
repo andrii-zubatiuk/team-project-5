@@ -11,35 +11,52 @@
   </head>
 
   <body>
-    <section>
-      <h2>Структура навчання</h2>
-      <ul>
-        <li>
-          <h3>1. Tech Skills</h3>
-          <p>
-            Освоєння технічних навичок: вміння користуватись різними програмами,
-            вивчення різних мов кодування.
-          </p>
-        </li>
-        <li>
-          <h3>2. Soft Skills</h3>
-          <p>Self-building. Time Management. Effective Communication.</p>
-        </li>
-        <li>
-          <h3>3. IT English</h3>
-          <p>Вивчення розмовної англійської за допомогою Speaking Club.</p>
-        </li>
-        <li>
-          <h3>4. Хакатон</h3>
-          <p>Дводенний Frontend марафон.</p>
-        </li>
-      </ul>
+    <section class="structure-section">
+      <div class="container">
+        <div class="section-title-wrap">
+          <svg class="section-title--icon">
+            <use href="./images/icons/icons-sprite.svg#circle"></use>
+          </svg>
+          <h2 class="section-title list">
+            Структура навчання
+          </h2>
+        </div>
+        <ul class="structure-list list">
+          <li class="structure-list__item tech">
+            <h3 class="structure-list__title list">1. Tech Skills</h3>
+            <p class="structure-list__description list">
+              Освоєння технічних навичок: вміння користуватись різними
+              програмами, вивчення різних мов кодування.
+            </p>
+          </li>
+          <li class="structure-list__item soft">
+            <h3 class="structure-list__title list">2. Soft Skills</h3>
+            <p class="structure-list__description list">
+              Self-building. <br />
+              Time Management. <br />
+              Effective Communication.
+            </p>
+          </li>
+          <li class="structure-list__item it">
+            <h3 class="structure-list__title list">3. IT English</h3>
+            <p class="structure-list__description list">
+              Вивчення розмовної англійської за допомогою Speaking Club.
+            </p>
+          </li>
+          <li class="structure-list__item hackathon">
+            <h3 class="structure-list__title list">4. Хакатон</h3>
+            <p class="structure-list__description list">
+              Дводенний Frontend марафон.
+            </p>
+          </li>
+        </ul>
+      </div>
     </section>
 
     <footer class="site-footer">
       <div class="footer list">
         <a href="/#anchor" class="anchor"></a>
-        <div class="container list">
+        <div class="footer-container list">
           <a href="/">
             <img src="./images/logo.png" class="footer-logo" alt="footer logo"
           /></a>
@@ -113,7 +130,7 @@
         </div>
       </div>
       <div class="site-rules">
-        <div class="container">
+        <div class="footer-container">
           <ul class="site-rules-list list">
             <li class="site-rules-list__item">
               <a

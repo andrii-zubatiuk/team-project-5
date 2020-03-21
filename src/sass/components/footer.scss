@@ -48,6 +48,13 @@
   display: inline-block;
   width: 40px;
   height: 40px;
+  transform: scale(1);
+  transition: transform 250ms $animation;
+
+  &:hover,
+  &:focus {
+    transform: scale(1.1);
+  }
 }
 
 .site-rules-list__link {
@@ -91,7 +98,7 @@
     padding: 26px 0;
   }
 
-  .container {
+  .footer-container {
     max-width: 320px;
     margin-left: auto;
     margin-right: auto;
@@ -135,7 +142,7 @@
     padding: 20px 0;
   }
 
-  .container {
+  .footer-container {
     max-width: 768px;
     margin-left: auto;
     margin-right: auto;
@@ -213,7 +220,7 @@
     margin-bottom: 30px;
   }
 
-  .container {
+  .footer-container {
     max-width: 1360px;
     margin-left: auto;
     margin-right: auto;
