@@ -1,9 +1,14 @@
-.advantages-container {
+.container {
   width: 320px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.advantages {
+  padding-top: 22px;
+  padding-bottom: 60px;
 }
 
 .advantage-list__decoration {
@@ -33,15 +38,6 @@
 .advantage__icon--tablet {
   position: absolute;
   visibility: hidden;
-}
-
-.advantage__header {
-  font-family: $secondary-font;
-  font-size: 20px;
-  line-height: 78px;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: $general-color;
 }
 
 .advantage-list {
@@ -104,7 +100,7 @@
   fill: #60a99e;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1299px) {
+@media screen and (min-width: 768px) and (max-width: 1359px) {
   .advantage__icon--mobile {
     position: absolute;
     visibility: hidden;
@@ -115,13 +111,17 @@
     visibility: visible;
   }
 
-  .advantages-container {
-    width: 690px;
+  .advantages {
+    padding-top: 38px;
+    padding-bottom: 76px;
+  }
+
+  .container {
+    width: 768px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin-bottom: 45px;
+    padding-left: 72px;
+    padding-right: 72px;
   }
 
   .advantage__icon {
@@ -129,15 +129,6 @@
     width: 30px;
     height: 30px;
     margin-right: 18px;
-  }
-
-  .advantage__header {
-    font-family: $secondary-font;
-    font-size: 33px;
-    line-height: 78px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: $general-color;
   }
 
   .advantage-list {
@@ -216,7 +207,7 @@
   }
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1360px) {
   .advantage__icon--mobile {
     position: absolute;
     visibility: hidden;
@@ -230,16 +221,16 @@
   .advantages {
     background-color: #fafafa;
     overflow: hidden;
-    padding-top: 93px;
+    padding-top: 92px;
+    padding-bottom: 116px;
   }
 
-  .advantages-container {
-    min-width: 1300px;
-    padding-left: 0;
-    padding-right: 0;
+  .container {
+    min-width: 1360px;
+    padding-left: 30px;
+    padding-right: 30px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 45px;
   }
 
   .advantage__heading {
@@ -248,15 +239,9 @@
     margin-bottom: 43px;
   }
 
-  .advantage__header {
+  .section-title {
     position: relative;
     z-index: 10;
-    font-family: $secondary-font;
-    font-size: 33px;
-    line-height: 78px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: $general-color;
   }
 
   .advantage-list {

@@ -10,8 +10,7 @@
 }
 
 .snaps {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 32px;
 }
 
 .snaps__content {
@@ -82,21 +81,21 @@
   top: -45px;
 }
 
-@media screen and (max-width: 766px) {
+@media screen and (max-width: 767px) {
   .snaps__text--element::before {
     width: 26px;
     height: 20px;
   }
 }
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   .snaps__text--element::before {
     left: -28px;
   }
 }
 
-@media screen and (min-width: 767px) and (max-width: 1298px) {
+@media screen and (min-width: 768px) and (max-width: 1359px) {
   .snaps {
-    padding-top: 65px;
+    padding-top: 40px;
   }
 
   .snaps__text {
@@ -130,10 +129,9 @@
   }
 }
 
-@media screen and (min-width: 1299px) {
+@media screen and (min-width: 1360px) {
   .snaps {
-    padding-top: 117px;
-    padding-bottom: 110px;
+    padding-top: 116px;
   }
 
   .snaps__content {

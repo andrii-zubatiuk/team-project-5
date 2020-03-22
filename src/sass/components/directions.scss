@@ -149,21 +149,31 @@
   padding-bottom: 20px;
 }
 
-@media screen and (max-width: 694px) {
+@media screen and (max-width: 767px) {
   .container {
     padding: 0px 20px;
     margin-left: auto;
     margin-right: auto;
     max-width: 320px;
   }
+
+  .direction {
+    padding-top: 22px;
+    padding-bottom: 60px;
+  }
 }
 
-@media screen and (min-width: 695px) and (max-width: 1299px) {
+@media screen and (min-width: 668px) and (max-width: 1359px) {
   .container {
-    padding: 0px 35px;
+    padding: 0px 72px;
     margin-left: auto;
     margin-right: auto;
-    max-width: 690px;
+    max-width: 768px;
+  }
+
+  .direction {
+    padding-top: 38px;
+    padding-bottom: 76px;
   }
 
   .direction__title--box {
@@ -211,12 +221,17 @@
   }
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1360px) {
   .container {
-    padding: 0px 35px;
+    padding: 0px 30px;
     margin-left: auto;
     margin-right: auto;
-    max-width: 1300px;
+    max-width: 1360px;
+  }
+
+  .direction {
+    padding-top: 92px;
+    padding-bottom: 116px;
   }
 
   .direction__list {
