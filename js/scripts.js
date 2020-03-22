@@ -1,0 +1,1 @@
+"use strict";$(document).ready(function(){$(".nav-home__burger").click(function(e){$(".nav-home__burger,.nav-site").toggleClass("nav-home__burger--active")})});
