@@ -1,5 +1,6 @@
 @media screen and (max-width: 1299px) {
   .nav-home__burger {
+    margin-right: 20px;
     display: block;
     position: relative;
     width: 28px;
@@ -57,5 +58,11 @@
 
   .nav-home__burger--active {
     top: 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1298px) {
+  .nav-home__burger {
+    margin-right: 40px;
   }
 }
