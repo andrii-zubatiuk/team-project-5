@@ -1,5 +1,6 @@
 .footer-logo {
   width: 108px;
+  display: inline-block;
 }
 
 .address {
@@ -73,6 +74,7 @@
 
 .social-networks-link {
   margin-right: 20px;
+  text-decoration: none;
 
   &:last-child {
     margin-right: 0;
@@ -221,10 +223,9 @@
   }
 
   .footer-container {
-    max-width: 1360px;
+    width: 1300px;
     margin-left: auto;
     margin-right: auto;
-    padding: 0 30px;
   }
 
   .site-rules-list {

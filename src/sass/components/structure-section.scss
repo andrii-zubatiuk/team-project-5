@@ -38,26 +38,26 @@
     margin-bottom: 0;
   }
 
-  &.tech {
-    background-color: #faebd0;
-  }
-
-  &.soft {
-    background-color: #ffddd3;
-  }
-
-  &.it {
-    background-color: #e7d9f6;
-  }
-
-  &.hackathon {
-    background-color: #baebe9;
-  }
-
   &:hover,
   &:focus {
     transform: scale(1.02);
   }
+}
+
+.structure-list__item--tech {
+  background-color: #faebd0;
+}
+
+.structure-list__item--soft {
+  background-color: #ffddd3;
+}
+
+.structure-list__item--it {
+  background-color: #e7d9f6;
+}
+
+.structure-list__item--hackathon {
+  background-color: #baebe9;
 }
 
 .structure-list__item::before {
@@ -159,8 +159,8 @@
   .structure-list__item {
     width: 300px;
     min-height: 292px;
-    margin-bottom: 20px;
-    margin-right: 20px;
+    margin-bottom: 22px;
+    margin-right: 22px;
 
     &:nth-child(2n) {
       margin-right: 0;
@@ -217,7 +217,7 @@
   .structure-list__item {
     width: 300px;
     min-height: 292px;
-    margin-right: 20px;
+    margin-right: 22px;
 
     &:last-child {
       margin-right: 0;
